@@ -1,4 +1,5 @@
 import treasureChest from './treasure-chest.png';
+import TransferForm from './transfer';
 import './App.css';
 
 function App() {
@@ -7,16 +8,10 @@ function App() {
       <header className="App-header">
         <img src={treasureChest} className="App-logo" alt="logo" />
         <p>
-          <code>Treasure Chest!</code>
+          <code>💎 Treasure Chest! 💎</code>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Transfer
-        </a>
+        <br />
+        <TransferForm />
       </header>
     </div>
   );
