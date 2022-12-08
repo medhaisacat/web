@@ -2,7 +2,11 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import './transfer.css'
 
+<<<<<<< HEAD
 function TransferForm() {
+=======
+function TransferForm(props) {
+>>>>>>> d292c1a59838af18f0a1dc167d31341fed088142
   const [privateKey, setPrivateKey] = useState('');
   const [senderAddress, setSenderAddress] = useState('');
   const [receiverAddress, setReceiverAddress] = useState('');
@@ -111,3 +115,4 @@ function TransferForm() {
 
 
 export default TransferForm;
+
